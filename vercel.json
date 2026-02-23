@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/alan/:path*",
+      "destination": "https://hr-onboarding-engine.vercel.app/alan/:path*"
+    },
+    {
+      "source": "/balatro/:path*",
+      "destination": "https://balatro-card-generator.vercel.app/balatro/:path*"
+    }
+  ]
+}
