@@ -1,5 +1,14 @@
 {
   "rewrites": [
+    {
+      "source": "/api/demo/:path*",
+      "destination": "https://hr-onboarding-engine.vercel.app/api/demo/:path*"
+    },
+    {
+      "source": "/api/demo",
+      "destination": "https://hr-onboarding-engine.vercel.app/api/demo"
+    },
+
     { "source": "/alan", "destination": "https://hr-onboarding-engine.vercel.app/alan" },
     { "source": "/alan/:path*", "destination": "https://hr-onboarding-engine.vercel.app/alan/:path*" },
 
