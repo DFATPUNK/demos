@@ -1,12 +1,9 @@
 {
   "rewrites": [
     { "source": "/api/alan/:path*", "destination": "https://hr-onboarding-engine.vercel.app/api/:path*" },
-    { "source": "/api/alan", "destination": "https://hr-onboarding-engine.vercel.app/api" },
+    { "source": "/alan/:path*", "destination": "https://hr-onboarding-engine.vercel.app/:path*" },
 
-    { "source": "/alan", "destination": "https://hr-onboarding-engine.vercel.app/alan" },
-    { "source": "/alan/:path*", "destination": "https://hr-onboarding-engine.vercel.app/alan/:path*" },
-
-    { "source": "/balatro", "destination": "https://balatro-card-generator.vercel.app/balatro" },
-    { "source": "/balatro/:path*", "destination": "https://balatro-card-generator.vercel.app/balatro/:path*" }
+    { "source": "/api/balatro/:path*", "destination": "https://balatro-card-generator.vercel.app/api/:path*" },
+    { "source": "/balatro/:path*", "destination": "https://balatro-card-generator.vercel.app/:path*" }
   ]
 }
