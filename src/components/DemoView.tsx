@@ -63,7 +63,7 @@ export default function MobileView() {
           {githubOpen && (
             <div className="tree-subgroup">
               <div className="tree-subitem">
-                <a href="https://github.com/DFATPUNK/hr-onboarding" target="_blank"><img src={codeIcon} className="start-menu-icon" />'Zero-Touch Onboarding'</a>
+                <a href="https://github.com/DFATPUNK/hr-onboarding-engine" target="_blank"><img src={codeIcon} className="start-menu-icon" />'Zero-Touch Onboarding'</a>
               </div>
               <div className="tree-subitem">
                 <a href="https://github.com/DFATPUNK/balatro-card-generator" target="_blank"><img src={balatroIcon} className="start-menu-icon" />'Balatro Joker Generator'</a>
