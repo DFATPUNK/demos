@@ -3,7 +3,6 @@
     { "source": "/api/alan/:path*", "destination": "https://hr-onboarding-engine.vercel.app/api/:path*" },
     { "source": "/alan/:path*", "destination": "https://hr-onboarding-engine.vercel.app/:path*" },
 
-    { "source": "/api/balatro/:path*", "destination": "https://balatro-card-generator.vercel.app/api/:path*" },
     { "source": "/balatro/:path*", "destination": "https://balatro-card-generator.vercel.app/:path*" }
   ]
 }

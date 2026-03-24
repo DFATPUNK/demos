@@ -1,52 +1,13 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Demos — Jérémy Brunet</title>
-    <link
-      rel="stylesheet"
-      href="https://raw.githubusercontent.com/DFATPUNK/personal-website/main/src/styles/mobileView.css"
-    />
-    <style>
-      body {
-        margin: 0;
-      }
-
-      .mobile-wrapper {
-        background-image: url("https://raw.githubusercontent.com/DFATPUNK/personal-website/main/public/retro-wallpaper.png");
-      }
-
-      .tree-subitem + .tree-subitem {
-        margin-top: 0.5rem;
-      }
-
-      .tree-meta {
-        margin: 0 0 1.5rem;
-        color: #000;
-        background: rgba(255, 255, 255, 0.92);
-        border: 2px solid #000;
-        box-shadow: 2px 2px #808080;
-        padding: 0.75rem 1rem;
-        max-width: 320px;
-      }
-    </style>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jérémy Brunet — Automation/ML Engineer</title>
   </head>
   <body>
-    <main class="mobile-wrapper">
-      <h1 class="mobile-title">Démos</h1>
-      <p class="tree-meta">Portfolio demos : demos.jeremybrunet.com</p>
-
-      <nav class="tree" aria-label="Liste des démos">
-        <div class="tree-subgroup">
-          <div class="tree-item">
-            <a href="/alan">Alan — HR Onboarding Engine</a>
-          </div>
-          <div class="tree-subitem">
-            <a href="/balatro">Balatro — Card Generator</a>
-          </div>
-        </div>
-      </nav>
-    </main>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
