@@ -3,6 +3,9 @@
     { "source": "/api/alan/:path*", "destination": "https://hr-onboarding-engine.vercel.app/api/:path*" },
     { "source": "/alan/:path*", "destination": "https://hr-onboarding-engine.vercel.app/:path*" },
 
-    { "source": "/balatro/:path*", "destination": "https://balatro-card-generator.vercel.app/:path*" }
+    { "source": "/balatro/:path*", "destination": "https://balatro-card-generator.vercel.app/:path*" },
+
+    {"source": "/api/pg-calculator/:path*", "destintation": "https://pg-calculator.vercel.app/api/:path*" },
+    { "source": "/pg-calculator/:path*", "destination": "https://pg-calculator.vercel.app/:path*" }
   ]
 }

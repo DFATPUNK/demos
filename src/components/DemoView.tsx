@@ -4,9 +4,9 @@ import folderIcon from "../assets/icons/folder.png";
 import openFolderIcon from "../assets/icons/open_folder.png";
 import codeIcon from "../assets/icons/source_code.png";
 import balatroIcon from "../assets/icons/balatro.png";
-import ilyaIcon from "../assets/icons/ilya.png";
 import homeIcon from "../assets/icons/home.png";
 import bookIcon from "../assets/icons/book.png";
+import calculatorIcon from "../assets/icons/calculator.png";
 
 export default function MobileView() {
     const [demosOpen, setDemosOpen] = useState(true);
@@ -27,6 +27,10 @@ export default function MobileView() {
           </div>
           {demosOpen && (
             <div className="tree-subgroup">
+              <div className="tree-subitem">
+                <a href="/pg-calculator" target="_blank"><img src={calculatorIcon} className="start-menu-icon" />Parameter Golf Calculator
+                Handy calculator made for OpenAI's Parameter Golf challenge.</a>
+              </div>
               <div className="tree-subitem">
                 <a href="/alan" target="_blank"><img src={codeIcon} className="start-menu-icon" />Zero-Touch Onboarding
                 HR Demo for Alan</a>
@@ -69,8 +73,7 @@ export default function MobileView() {
                 <a href="https://github.com/DFATPUNK/balatro-card-generator" target="_blank"><img src={balatroIcon} className="start-menu-icon" />'Balatro Joker Generator'</a>
               </div>
               <div className="tree-subitem">
-                <a href="https://github.com/DFATPUNK/parameter-golf" target="_blank"><img src={ilyaIcon} className="start-menu-icon" /> 'Parameter Golf: OpenAI Model Craft Challenge'
-                <i>work in progress</i></a>
+                <a href="https://github.com/DFATPUNK/pg-calculator" target="_blank"><img src={calculatorIcon} className="start-menu-icon" /> 'Parameter Golf Calculator'</a>
               </div>
             </div>
           )}
