@@ -7,6 +7,8 @@ import balatroIcon from "../assets/icons/balatro.png";
 import homeIcon from "../assets/icons/home.png";
 import bookIcon from "../assets/icons/book.png";
 import calculatorIcon from "../assets/icons/calculator.png";
+import demoIcon from "../assets/icons/open_params.png";
+import closedDemoIcon from "../assets/icons/closed_params.png";
 
 export default function MobileView() {
     const [demosOpen, setDemosOpen] = useState(true);
@@ -21,7 +23,7 @@ export default function MobileView() {
           {/* Demos */}
           <div className="tree-item">
             <div className="tree-button" onClick={() => setDemosOpen(!demosOpen)}>
-                <img src={demosOpen ? openFolderIcon : folderIcon} className="start-menu-icon" alt="folder" />
+                <img src={demosOpen ? demoIcon : closedDemoIcon} className="start-menu-icon" alt="folder" />
                 Demos
             </div>
           </div>
