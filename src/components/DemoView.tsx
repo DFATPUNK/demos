@@ -31,7 +31,7 @@ export default function MobileView() {
             <div className="tree-subgroup">
               <div className="tree-subitem">
                 <a href="/pg-calculator" target="_blank"><img src={calculatorIcon} className="start-menu-icon" />Parameter Golf Calculator
-                Handy calculator made for OpenAI's Parameter Golf challenge.</a>
+                Calculator made for OpenAI's Parameter Golf challenge.</a>
               </div>
               <div className="tree-subitem">
                 <a href="/alan" target="_blank"><img src={codeIcon} className="start-menu-icon" />Zero-Touch Onboarding
@@ -48,11 +48,14 @@ export default function MobileView() {
           <div className="tree-item">
             <div className="tree-button" onClick={() => setBooksOpen(!booksOpen)}>
                 <img src={booksOpen ? openFolderIcon : folderIcon} className="start-menu-icon" alt="folder" />
-                Docs
+                User Manuals
             </div>
           </div>
           {booksOpen && (
             <div className="tree-subgroup">
+              <div className="tree-subitem">
+                <a href="https://writebook.jeremybrunet.com/5/pg-calculator" target="_blank"><img src={bookIcon} className="start-menu-icon" />Parameter Golf Calculator</a>
+              </div>
               <div className="tree-subitem">
                 <a href="https://writebook.jeremybrunet.com/3/alan.com" target="_blank"><img src={bookIcon} className="start-menu-icon" />Zero-Touch Onboarding</a>
               </div>
@@ -63,19 +66,19 @@ export default function MobileView() {
           <div className="tree-subgroup">
             <div className="tree-button" onClick={() => setGithubOpen(!githubOpen)}>
                 <img src={githubOpen ? openFolderIcon : folderIcon} className="start-menu-icon" alt="folder" />
-                Github
+                Repos
             </div>
           </div>
           {githubOpen && (
             <div className="tree-subgroup">
               <div className="tree-subitem">
+                <a href="https://github.com/DFATPUNK/pg-calculator" target="_blank"><img src={calculatorIcon} className="start-menu-icon" /> 'Parameter Golf Calculator'</a>
+              </div>
+              <div className="tree-subitem">
                 <a href="https://github.com/DFATPUNK/hr-onboarding-engine" target="_blank"><img src={codeIcon} className="start-menu-icon" />'Zero-Touch Onboarding'</a>
               </div>
               <div className="tree-subitem">
                 <a href="https://github.com/DFATPUNK/balatro-card-generator" target="_blank"><img src={balatroIcon} className="start-menu-icon" />'Balatro Joker Generator'</a>
-              </div>
-              <div className="tree-subitem">
-                <a href="https://github.com/DFATPUNK/pg-calculator" target="_blank"><img src={calculatorIcon} className="start-menu-icon" /> 'Parameter Golf Calculator'</a>
               </div>
             </div>
           )}
