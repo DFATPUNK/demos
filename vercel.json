@@ -5,7 +5,10 @@
 
     { "source": "/balatro/:path*", "destination": "https://balatro-card-generator.vercel.app/:path*" },
 
-    { "source": "/api/pg-calculator/:path*", "destination": "https://pg-calculator.vercel.app/api/:path*" },
+    { "source": "/api/pg-calculator", "destination": "https://pg-calculator.vercel.app/api/pg-calculator" },
+    { "source": "/api/pg-calculator/:path*", "destination": "https://pg-calculator.vercel.app/api/pg-calculator/:path*" },
+
+    { "source": "/pg-calculator", "destination": "https://pg-calculator.vercel.app/" },
     { "source": "/pg-calculator/:path*", "destination": "https://pg-calculator.vercel.app/:path*" }
   ]
 }
