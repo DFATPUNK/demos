@@ -112,24 +112,25 @@
 .tree-link-with-subtitle {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
-/* Row for icon + title */
 .tree-row {
   display: flex;
   align-items: center;
   gap: 6px;
 }
 
-/* Title stays clean */
 .tree-title {
   font-size: 0.95rem;
   color: #000;
 }
 
-/* Subtitle sits below */
 .tree-subtitle {
   font-size: 0.75rem;
   color: #404040;
-  margin-left: 22px; /* aligns with text (icon width + gap) */
+  margin-left: 22px;
+  margin-top: 1px;
+  line-height: 1.1;
+  text-align: left;
 }
