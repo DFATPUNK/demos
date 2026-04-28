@@ -30,16 +30,40 @@ export default function MobileView() {
           {demosOpen && (
             <div className="tree-subgroup">
               <div className="tree-subitem">
-                <a href="/pg-calculator" target="_blank"><img src={calculatorIcon} className="start-menu-icon" />Parameter Golf Calculator
-                Calculator made for OpenAI's Parameter Golf challenge.</a>
+                <a href="/pg-calculator" target="_blank" className="tree-link-with-subtitle">
+                  <img src={calculatorIcon} className="start-menu-icon" />
+                  
+                  <div className="tree-text">
+                    <div className="tree-title">Parameter Golf Calculator</div>
+                    <div className="tree-subtitle">
+                      Calculator made for OpenAI's Parameter Golf challenge.
+                    </div>
+                  </div>
+                </a>
               </div>
               <div className="tree-subitem">
-                <a href="/alan" target="_blank"><img src={codeIcon} className="start-menu-icon" />Zero-Touch Onboarding
-                HR Demo for Alan</a>
+                <a href="/alan" target="_blank" className="tree-link-with-subtitle">
+                  <img src={codeIcon} className="start-menu-icon" />
+                  
+                  <div className="tree-text">
+                    <div className="tree-title">Zero-Touch Onboarding</div>
+                    <div className="tree-subtitle">
+                      HR Demo for Alan
+                    </div>
+                  </div>
+                </a>
               </div>
               <div className="tree-subitem">
-                <a href="/balatro" target="_blank"><img src={balatroIcon} className="start-menu-icon" />Balatro Joker Generator
-                Figma-to-App Demo</a>
+                <a href="/balatro" target="_blank" className="tree-link-with-subtitle">
+                  <img src={balatroIcon} className="start-menu-icon" />
+
+                  <div className="tree-test">
+                    <div className="tree-title"> Balatro Joker Generator</div>
+                    <div className="tree-subtitle">
+                      Figma-to-App Demo
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
           )}

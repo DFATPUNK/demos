@@ -108,3 +108,27 @@
     vertical-align: middle;
     margin-right: 6px;
   }
+
+  .tree-link-with-subtitle {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.tree-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+/* Title = keep your current vibe */
+.tree-title {
+  font-size: 0.95rem;
+  color: #000;
+}
+
+/* Subtitle = smaller + slightly muted like Win98 tooltips */
+.tree-subtitle {
+  font-size: 0.75rem;
+  color: #404040;
+}
