@@ -109,26 +109,27 @@
     margin-right: 6px;
   }
 
-  .tree-link-with-subtitle {
+.tree-link-with-subtitle {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* Row for icon + title */
+.tree-row {
+  display: flex;
+  align-items: center;
   gap: 6px;
 }
 
-.tree-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
-}
-
-/* Title = keep your current vibe */
+/* Title stays clean */
 .tree-title {
   font-size: 0.95rem;
   color: #000;
 }
 
-/* Subtitle = smaller + slightly muted like Win98 tooltips */
+/* Subtitle sits below */
 .tree-subtitle {
   font-size: 0.75rem;
   color: #404040;
+  margin-left: 22px; /* aligns with text (icon width + gap) */
 }

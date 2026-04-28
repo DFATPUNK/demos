@@ -32,19 +32,23 @@ export default function MobileView() {
               <div className="tree-subitem">
                 <a href="/pg-calculator" target="_blank" className="tree-link-with-subtitle">
                   
-                  <div className="tree-text">
-                    <img src={calculatorIcon} className="start-menu-icon" /><div className="tree-title">Parameter Golf Calculator</div>
-                    <div className="tree-subtitle">
-                      Calculator made for OpenAI's Parameter Golf challenge.
-                    </div>
+                  <div className="tree-row">
+                    <img src={calculatorIcon} className="start-menu-icon" />
+                    <span className="tree-title">Parameter Golf Calculator</span>
+                  </div>
+
+                  <div className="tree-subtitle">
+                    Calculator made for OpenAI's Parameter Golf challenge.
                   </div>
                 </a>
               </div>
               <div className="tree-subitem">
                 <a href="/alan" target="_blank" className="tree-link-with-subtitle">
                   
-                  <div className="tree-text">
-                    <img src={codeIcon} className="start-menu-icon" /><div className="tree-title">Zero-Touch Onboarding</div>
+                  <div className="tree-row">
+                    <img src={codeIcon} className="start-menu-icon" />
+                    <span className="tree-title">Zero-Touch Onboarding</span>
+                    
                     <div className="tree-subtitle">
                       HR Demo for Alan
                     </div>
@@ -54,8 +58,10 @@ export default function MobileView() {
               <div className="tree-subitem">
                 <a href="/balatro" target="_blank" className="tree-link-with-subtitle">
 
-                  <div className="tree-test">
-                    <img src={balatroIcon} className="start-menu-icon" /><div className="tree-title"> Balatro Joker Generator</div>
+                  <div className="tree-row">
+                    <img src={balatroIcon} className="start-menu-icon" />
+                    <span className="tree-title"> Balatro Joker Generator</span>
+
                     <div className="tree-subtitle">
                       Figma-to-App Demo
                     </div>
