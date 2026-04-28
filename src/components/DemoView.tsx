@@ -31,10 +31,9 @@ export default function MobileView() {
             <div className="tree-subgroup">
               <div className="tree-subitem">
                 <a href="/pg-calculator" target="_blank" className="tree-link-with-subtitle">
-                  <img src={calculatorIcon} className="start-menu-icon" />
                   
                   <div className="tree-text">
-                    <div className="tree-title">Parameter Golf Calculator</div>
+                    <img src={calculatorIcon} className="start-menu-icon" /><div className="tree-title">Parameter Golf Calculator</div>
                     <div className="tree-subtitle">
                       Calculator made for OpenAI's Parameter Golf challenge.
                     </div>
@@ -43,10 +42,9 @@ export default function MobileView() {
               </div>
               <div className="tree-subitem">
                 <a href="/alan" target="_blank" className="tree-link-with-subtitle">
-                  <img src={codeIcon} className="start-menu-icon" />
                   
                   <div className="tree-text">
-                    <div className="tree-title">Zero-Touch Onboarding</div>
+                    <img src={codeIcon} className="start-menu-icon" /><div className="tree-title">Zero-Touch Onboarding</div>
                     <div className="tree-subtitle">
                       HR Demo for Alan
                     </div>
@@ -55,10 +53,9 @@ export default function MobileView() {
               </div>
               <div className="tree-subitem">
                 <a href="/balatro" target="_blank" className="tree-link-with-subtitle">
-                  <img src={balatroIcon} className="start-menu-icon" />
 
                   <div className="tree-test">
-                    <div className="tree-title"> Balatro Joker Generator</div>
+                    <img src={balatroIcon} className="start-menu-icon" /><div className="tree-title"> Balatro Joker Generator</div>
                     <div className="tree-subtitle">
                       Figma-to-App Demo
                     </div>
